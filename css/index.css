@@ -1,0 +1,262 @@
+.shortcut{
+    height: 52px;
+	background-color: #333333
+}
+
+.shortcut .wrapper{
+    height: 52px;
+}
+
+.shortcut .content{
+    float: right;
+}
+
+.shortcut li{
+	font-family: PingFangSC-Regular;
+	font-size: 14px;
+    float: left;
+    line-height: 52px;
+}
+
+.shortcut li a{
+    padding: 0 15px;
+    border-right: 1px solid #666666;	
+    color: #dcdcdc;
+}
+
+.content a span{
+    height: 16px;
+    width: 11px;
+    background-image: url(../images/sprites.png);
+    display: inline-block;
+    background-position: -160px -69px;
+    margin-right: 8px;
+    vertical-align: middle;
+    /* 专治行内块、行内元素的垂直居中 */
+}
+
+.banner{
+    height: 70px;
+    margin-top: 30px;
+}
+
+.logo a{
+    background-image: url(../images/logo.png);
+    float: left;
+    height: 70px;
+    width: 207px;
+    /* 设置背景图片模式 */
+    background-size: contain;
+}
+
+.nav{
+    float: left;
+    height: 33px;
+    width: 968px;
+    margin-left: 40px;
+}
+
+.search{
+    height: 33px;
+    width: px;
+    float: 200right; 
+    border-bottom: 2px #e7e7e7 solid;
+
+}
+
+
+.sort{
+    margin-top: 23px;
+    width: 720px;
+}
+.sort li{
+    float: left;
+}
+
+.sort li a{
+    line-height: 33px;
+    margin-right: 48px;
+    padding-bottom: 8px;
+}
+
+.sort li a:hover{
+    color: #27ba9b;
+    border-bottom: 1px solid#27ba9b;;
+}
+
+.search{
+    float: left;
+}
+
+.search input{
+    height: 30px;
+    width: 172px;
+    float: left;
+}
+
+.seaicon{
+    height: 18px;
+    width: 18px;
+    background-image: url(../images/sprites.png);
+    background-position: -80px -70px;
+    float: left;
+    margin-right: 10px;
+}
+
+.carticon a{
+    display: inline-block;
+    margin-left: 20px;
+    height: 33px;
+    width: 23px;
+    vertical-align:middle;
+    background-image: url(../images/sprites.png);
+    background-position: -120px -70px;
+}
+
+.mainsort{
+    height: 500px;
+    margin-top: 20px;
+    position: relative;
+}
+
+.bannerimg{
+    height: 500px;
+}
+
+.leftbox{
+    width: 251px;
+	height: 500px;
+	background-color: #000000;
+	opacity: 0.8;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.leftbox li{
+    height: 50px;
+    display: block;
+    line-height: 50px;
+}
+
+.leftbox li a{
+    color: #ffffff;
+    padding: 0 8px;
+}
+
+.leftbox li:hover{
+    background-color: #27ba9b;
+}
+
+.leftbox span{
+    float: right;
+    margin-right: 20px;
+    color: #fff;
+}
+
+.swiftleft,.swiftright{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    top: 228px;
+    border-radius: 50%;
+    background-color: #000000;
+	opacity: 0.2;
+}
+
+.swiftleft{
+    background-image:url(../images/sprites.png);
+    background-position: 15px -60px;
+    left: 260px;
+}
+
+.swiftright{
+    background-image:url(../images/sprites.png);
+    background-position: -22px -60px;
+    right: 10px;
+}
+
+/* 轮播图导航栏 li添加圆圈小点样式 */
+.mainsort .imgnav li{
+    display: inline-block;
+    width: 9px;
+	height: 10px;
+	background-color: #ffffff;
+	opacity: 0.43;
+    position: relative;
+    bottom: 40px;
+    left: 680px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+
+/* 新鲜好物 */
+.freshgoods{
+    margin-top: 30px;
+}
+
+.hd{
+    height: 29px;
+    margin-bottom: 37px;
+}
+
+.hd .title{
+    font-size: 29px;
+    line-height: 29px;
+    float: left;
+}
+
+.description,.viewall a{
+    color: #999999;
+    font-size: 16px;
+    line-height: 16px;
+}
+
+.description{
+    float: left;
+    margin-left: 35px;
+    margin-top: 10px;
+}
+
+.hd .viewall{
+    float: right;
+    margin-top: 6px;
+}
+
+.goods1,.goods2,.goods3,.goods4{
+    height: 405px;
+    width: 305px;
+    float: left;
+}
+
+.goods2,.goods3,.goods4{
+    margin-left: 5px;
+}
+
+.pic{
+    height: 305px;
+    overflow: hidden;
+    width: 305px;
+}
+
+.detial{
+    height: 100px;
+    width: 305px;
+    background-color: #f0f9f4;
+}
+
+.name{
+    height: 20px;
+    display: block;
+    font-size: 20px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.price{
+    display: block;
+    font-size: 23px;
+    color: #9a2e1f;
+    text-align: center;
+    padding-top: 20px;
+}
